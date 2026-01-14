@@ -1,0 +1,26 @@
+INTERVIEW PREPARATION QUESTIONS:
+
+1. Difference btw var, let and const
+
+2. Explain different types of operators in js
+
+3. Difference btw == and ===
+
+4. What is hoisting and temporal deadzone(tdz)
+
+5. Explain the different array methods in js -
+(a) map vs filter vs reduce
+(b) map vs foreach
+(c) find vs filter
+(d) sum vs every
+
+6. String and Object methods
+
+7. Types of functions in js
+(a) regular function
+(b) arrow function
+(c) first class function
+(d) Higher order function
+(e) callback function
+(f) self-invoking function (IIFE - Immediately Invoked Function Expression)
+(g) anonymous function
