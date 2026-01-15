@@ -7,3 +7,5 @@
 ## (Q.) Take an array with length 10 and store 10 different student marks in btw 0-40 and check which student is pass or fail. (Use filter method - passing marks = 16)
 
 ## (Q.) Find the sum of all elements of an array using for loop.
+
+## (Q.) Find the sum of all elements of an array using reduce method.

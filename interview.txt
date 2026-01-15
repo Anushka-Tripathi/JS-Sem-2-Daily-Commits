@@ -12,7 +12,7 @@ INTERVIEW PREPARATION QUESTIONS:
 (a) map vs filter vs reduce
 (b) map vs foreach
 (c) find vs filter
-(d) sum vs every
+(d) some vs every
 
 6. String and Object methods
 
