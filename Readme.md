@@ -9,3 +9,5 @@
 ## (Q.) Find the sum of all elements of an array using for loop.
 
 ## (Q.) Find the sum of all elements of an array using reduce method.
+
+## -> Js is synchronous and almost everything in js is an object.

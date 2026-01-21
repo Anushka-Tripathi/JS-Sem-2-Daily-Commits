@@ -56,3 +56,54 @@ while (palindromeArr.length > 0) {
     }
 }
 console.log(isPalindrome); // true or false
+
+// Remove duplicates from an array using these methods
+let dupArr = [1, 2, 2, 3, 4, 4, 5];
+let uniqueArr = [];
+while (dupArr.length > 0) {
+    let element = dupArr.pop();
+    let isDuplicate = false;
+    for (let i = 0; i < uniqueArr.length; i++) {
+        if (uniqueArr[i] === element) {
+            isDuplicate = true;
+            break;
+        }
+    }
+    if (!isDuplicate) {
+        uniqueArr.unshift(element);
+    }
+}
+console.log(uniqueArr); // [1, 2, 3, 4, 5]
+
+// Split even and odd numbers in given array using these methods
+let evenNumbers = [];
+let oddNumbers = [];
+let numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+while (numArr.length > 0) {
+    let num = numArr.pop();
+    if (num % 2 === 0) {
+        evenNumbers.unshift(num);
+    } else {
+        oddNumbers.unshift(num);
+    }
+}
+console.log("Even numbers:", evenNumbers); // [2, 4, 6, 8, 10]
+console.log("Odd numbers:", oddNumbers); // [1, 3, 5, 7, 9]
+
+// Move all zeros to the end of the array using these methods
+let arrayWithZeros = [0, 1, 0, 3, 12, 0, 5];
+let nonZeroArr = [];
+let zeroCount = 0;
+while (arrayWithZeros.length > 0) {
+    let num = arrayWithZeros.pop();
+    if (num === 0) {
+        zeroCount++;
+    } else {
+        nonZeroArr.unshift(num);
+    }
+}
+while (zeroCount > 0) {
+    nonZeroArr.push(0);
+    zeroCount--;
+}
+console.log(nonZeroArr); // [1, 3, 12, 5, 0, 0, 0]
