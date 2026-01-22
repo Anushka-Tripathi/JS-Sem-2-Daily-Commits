@@ -51,6 +51,28 @@ fetchData(function(data) {
     console.log("Received:", data);
 });             // After 1 second, it will log: "Received: Sample Data"
 
+// IIFE (Immediately Invoked Function Expression)
+(function() {
+    console.log("This is an IIFE");
+})(); // It will log: "This is an IIFE"
+
+// First Class Function
+function greet() {
+    return "Hello!";
+}
+function processGreeting(fn) {
+    console.log(fn());
+}
+processGreeting(greet); // It will log: "Hello!"
+
+// Higher Order Function
+function higherOrder(fn, value) {
+    return fn(value);
+}
+function square(x) {
+    return x * x;
+}
+console.log(higherOrder(square, 5)); // 25 
 
 
 
