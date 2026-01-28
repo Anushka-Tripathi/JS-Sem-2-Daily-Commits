@@ -24,3 +24,13 @@ INTERVIEW PREPARATION QUESTIONS:
 (e) callback function
 (f) self-invoking function (IIFE - Immediately Invoked Function Expression)
 (g) anonymous function
+
+8. What is the difference between Object.freeze and Object.seal method?
+
+9. What is Execution Context and how js code executes in Execution Context?
+
+10. What is Call Stack?
+
+11. What is the difference between DOM and HTML?
+
+12. 

@@ -44,5 +44,22 @@ let person = {
     }
 };
 console.log(person.fullName()); // John Doe
-console.log(person.valueOf()); // [object Object]
-console.log(person.entries()); // [ [ 'firstName', 'John' ], [ 'lastName', 'Doe' ], [ 'fullName', [Function: fullName] ] ]
+
+// Keys, Values, Entries
+let car = {
+    make: "Toyota",
+    model: "Camry",
+    year: 2020
+};
+console.log(Object.keys(car)); // [ 'make', 'model', 'year' ]
+console.log(Object.values(car)); // [ 'Toyota', 'Camry', 2020 ]
+console.log(Object.entries(car)); // [ [ 'make', 'Toyota' ], [ 'model', 'Camry' ], [ 'year', 2020 ] ]
+
+// Freeze and Seal
+let book = {
+    title: "JavaScript Basics",
+    author: "John Doe",
+    pages: 300
+};
+console.log(Object.freeze(book)); // [object Object]
+console.log(Object.seal(book)); // [object Object]
