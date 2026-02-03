@@ -33,4 +33,4 @@ INTERVIEW PREPARATION QUESTIONS:
 
 11. What is the difference between DOM and HTML?
 
-12. console.log(`Total important elements: ${highlight.length}`);
+12. 
