@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p:nth-child(2n) {
+            color: red;
+        }
+        a:visited {
+            color: green;
+        }
+        li::marker {
+            content: "😎";
+        }
+        li:hover::marker {
+            content: "😭";
+        }
+    </style>
+</head>
+<body>
+
+    <div id="digi-clock"></div>
+
+    <ul>
+        <li>Sample</li>
+        <li>Sample</li>
+        <li>Sample</li>
+        <li>Sample</li>
+        <li>Sample</li>
+    </ul>
+
+    <a href="#">Home</a>
+
+    <p>lorem</p>
+    <p>lorem</p>
+    <p>lorem</p>
+    <p>lorem</p>
+    <p>lorem</p>
+    <p>lorem</p>
+    <p>lorem</p>
+    <p>lorem</p>
+
+    <div id="content">
+        <p>This is a Paragraph</p>
+    </div>
+
+    <div id="gallery">
+
+    </div>
+
+    <div id="parent"></div>
+
+    <script src="dc.js"></script>
+</body>
+</html>
